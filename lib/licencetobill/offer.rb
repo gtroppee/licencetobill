@@ -2,7 +2,7 @@ module LicenceToBill
   class Offer
     include LicenceToBill::Concerns
 
-    def get_stages
+    def get_features
       get_collection(LicenceToBill::Feature, self.stages[0]['features']) 
     end
 
