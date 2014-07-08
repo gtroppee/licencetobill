@@ -17,5 +17,5 @@ require_relative 'licencetobill/offer'
 require_relative 'licencetobill/user'
 require_relative 'licencetobill/user_address'
 
-require "#{LicenceToBill.root}/config/licencetobill"
+# require "#{LicenceToBill.root}/config/licencetobill"
 require "#{LicenceToBill.root}/config/vcr"
