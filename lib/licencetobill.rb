@@ -7,6 +7,8 @@ end
 require 'json'
 require 'httparty'
 require 'vcr'
+require 'pry'
+require_relative 'licencetobill/helpers'
 require_relative 'licencetobill/api'
 require_relative 'licencetobill/concerns'
 require_relative 'licencetobill/configuration'
@@ -17,5 +19,9 @@ require_relative 'licencetobill/offer'
 require_relative 'licencetobill/user'
 require_relative 'licencetobill/user_address'
 
-# require "#{LicenceToBill.root}/config/licencetobill"
+require "#{LicenceToBill.root}/config/licencetobill"
 require "#{LicenceToBill.root}/config/vcr"
+
+@api    = LicenceToBill::API.new
+@offers = @api.get_offers_for(1)
+puts @offers[1].features.inspect

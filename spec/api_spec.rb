@@ -74,6 +74,14 @@ describe LicenceToBill::API do
       expect(offers).to be_a(Array)
       expect(offer).to be_a(LicenceToBill::Offer) if offer
     end
+
+    it '#features', :vcr do
+      user = @api.get_user(1)
+      offers = @api.get_offers_for(user.key_user)
+      offer = offers[1]
+      expect(offer.features).to be_a(Array)
+      expect(offer.features.first).to be_a(LicenceToBill::Feature) if offer
+    end
   end
 
 end

@@ -4,6 +4,7 @@ module LicenceToBill
   end
 
   class API
+    include LicenceToBill::Helpers
     attr_accessor :token, :base_uri
 
     def initialize(business_key = LicenceToBill.configuration.business_key, agent_key = LicenceToBill.configuration.agent_key)
@@ -78,10 +79,6 @@ module LicenceToBill
                       "#{@base_uri}#{endpoint}", 
                       headers: { "Authorization" => @token, 'Content-Type' => "application/json" },
                       body: params.to_json)
-      end
-
-      def get_collection(klass, api_call)
-        LicenceToBill::Manager.return_collection(klass, api_call)
       end
   end
 

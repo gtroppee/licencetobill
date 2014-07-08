@@ -1,5 +1,8 @@
 module LicenceToBill
   module Concerns
+
+    include LicenceToBill::Helpers
+    
     def initialize(data_source)
       @data_source = data_source
     end
