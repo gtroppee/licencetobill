@@ -1,12 +1,12 @@
 #encoding: utf-8
 Gem::Specification.new do |s|
   s.name        = 'licencetobill'
-  s.version     = '0.0.0'
-  s.date        = '2014-06-15'
-  s.summary     = "A simple ruby wrapper for interfacing with the LicenceToBill private API"
+  s.version     = '0.1.0'
+  s.date        = '2014-07-08'
+  s.summary     = "A simple ruby wrapper for the LicenceToBill private API"
   s.authors     = "Guillaume Troppée"
   s.email       = 'gtroppee@gmail.com'
-  s.files       = ["lib/licencetobill.rb"]
+  s.files       = Dir["README.md","Gemfile", "spec/*", "lib/**/*"]
   s.homepage    ='http://rubygems.org/gems/licencetobill'
   s.license     = 'MIT'
 
