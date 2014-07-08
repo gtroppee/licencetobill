@@ -1,0 +1,39 @@
+[{"key_offer":"c847e068-5de6-4561-9131-ebfdef995394",
+  "title":"La curiosité",
+  "description":"Abonnement 15eur/mois",
+  "devise":"EUR",
+  "currency":"EUR",
+  "url_choose_payment":
+   "https://bb.licencetobill.com/fiQ51W5GysuBKI4vDJi3LaIQU9Y1UYkjXs0TBONVJdyOzmwJSOo1STuz9w4Z7ukG"},
+ {"key_offer":"5ae7baa0-19ae-4ca0-8494-ea1ed576ae10",
+  "title":"La passion",
+  "description":"Abonnement 25eur/mois",
+  "devise":"EUR",
+  "currency":"EUR",
+  "url_choose_payment":
+   "https://bb.licencetobill.com/f9SBU34dJOO5vmzOkIuKWaYU1Q7B1sOXVnTZLQoG5GJ4kYiC01y9zNSswjJwIiuy",
+  "stages":
+   [{"duration":1,
+     "unit_duration":"mois",
+     "amount":2500,
+     "features":
+      [{"key_feature":"5ed70cab-0520-48c4-b3e3-5ab36c1124b5",
+        "is_visible":true,
+        "title":"Accès illimité aux spectacles",
+        "description":"Réservez où et quand vous le désirez"}]}]},
+ {"key_offer":"521c92d9-281d-4044-b4cf-b6fcf5691ae7",
+  "title":"La vacance",
+  "description":"Abonnement 30eur/mois",
+  "devise":"EUR",
+  "currency":"EUR",
+  "url_choose_payment":
+   "https://bb.licencetobill.com/f9SBUw4dJOO5vmzOkIuKWaYU1Q7B1sOXV_TZLQoX5GJ4kYMT01y9zNSswjJwIiuy",
+  "stages":
+   [{"duration":1,
+     "unit_duration":"mois",
+     "amount":100,
+     "features":
+      [{"key_feature":"5ed70cab-0520-48c4-b3e3-5ab36c1124b5",
+        "is_visible":true,
+        "title":"Accès illimité aux spectacles",
+        "description":"Réservez où et quand vous le désirez"}]}]}]

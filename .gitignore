@@ -1,0 +1,18 @@
+.rspec
+/log
+/tmp
+**.orig
+/config/licencetobill.rb
+/spec/resources/vcr_cassettes
+
+# TODO Comment out these rules if you are OK with secrets being uploaded to the repo
+config/initializers/secret_token.rb
+config/secrets.yml
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+.DS_Store
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
