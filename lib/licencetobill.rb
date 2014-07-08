@@ -21,7 +21,3 @@ require_relative 'licencetobill/user_address'
 
 # require "#{LicenceToBill.root}/config/licencetobill"
 require "#{LicenceToBill.root}/config/vcr"
-
-@api    = LicenceToBill::API.new
-@offers = @api.get_offers_for(1)
-puts @offers[1].features.inspect

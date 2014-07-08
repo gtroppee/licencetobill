@@ -2,7 +2,10 @@ PATH
   remote: .
   specs:
     licencetobill (0.1.0)
+      addressable
       httparty
+      vcr
+      webmock
 
 GEM
   remote: https://rubygems.org/
@@ -64,12 +67,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  addressable
   licencetobill!
   pry
   pry-debugger
   pry-remote
   pry-stack_explorer
   rspec
-  vcr
-  webmock
