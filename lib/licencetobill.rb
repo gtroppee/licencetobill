@@ -25,4 +25,4 @@ require_relative 'licencetobill/user_address'
 
 # @api    = LicenceToBill::API.new
 # @offers = @api.get_offers_for(1)
-# puts @offers[1].features.inspect
+# puts @offers[1].get_stages.first
