@@ -7,7 +7,7 @@ end
 require 'json'
 require 'httparty'
 require 'vcr'
-require 'pry'
+# require 'pry'
 require_relative 'licencetobill/helpers'
 require_relative 'licencetobill/api'
 require_relative 'licencetobill/concerns'
