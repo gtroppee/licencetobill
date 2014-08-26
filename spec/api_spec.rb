@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'pry'
+
 describe LicenceToBill::API do  
 
   before { @api = LicenceToBill::API.new }
