@@ -2,8 +2,8 @@
 Gem::Specification.new do |s|
   s.name        = 'licencetobill'
   s.version     = '0.1.0'
-  s.date        = '2014-07-08'
-  s.summary     = "A simple ruby wrapper for the LicenceToBill private API"
+  s.date        = '2014-09-12'
+  s.summary     = "A simple ruby wrapper for the LicenceToBill API"
   s.authors     = "Guillaume Troppée"
   s.email       = 'gtroppee@gmail.com'
   s.files       = Dir["README.md","Gemfile", "spec/*", "lib/**/*"]

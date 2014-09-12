@@ -109,6 +109,7 @@ add_trial_for(key_user)
 get_features
 #=> Get the features of a specific stage (of course you'll need to send this message to a stage object = @stage.get_features)
 ```
+**Note that if there is not resource returned, the gem will return an empty array []**
 
 Of course, you'll find all the information you need [here](https://api.licencetobill.com/?lcid=12).
 
