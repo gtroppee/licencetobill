@@ -20,7 +20,7 @@ gem 'licencetobill', git: "git://github.com/gtroppee/licencetobill.git"
 ```
 
 ## Setup
-The only thing you need to provide is you LicenceToBill credentials. In the context of a Rails app, the best way to do so is to simply create a initializer for it:
+The only thing you need to provide is your LicenceToBill credentials. In the context of a Rails app, the best way to do so is to simply create an initializer for it:
 
 ```ruby
 # config/initializers/licencetobill.rb
@@ -109,7 +109,7 @@ add_trial_for(key_user)
 get_features
 #=> Get the features of a specific stage (of course you'll need to send this message to a stage object = @stage.get_features)
 ```
-**Note that if there is not resource returned, the gem will return an empty array []**
+**Note that if no resource is returned, the gem will return an empty array []**
 
 Of course, you'll find all the information you need [here](https://api.licencetobill.com/?lcid=12).
 
@@ -131,7 +131,7 @@ LicenceToBill::Deal.class_eval do
   end
 
   def price
-    self.amount.to_i / 100
+    amount.to_i / 100
   end
 
 end
@@ -147,5 +147,5 @@ All LicenceToBill resources have their own corresponding classes so you can basi
 
 
 ## Contribution
-Contribution are more than welcome, be sure to add relevant unit tests and pass them all before submitting any code.
+Contributions are more than welcome, be sure to add relevant unit tests and pass them all before submitting any code.
 
