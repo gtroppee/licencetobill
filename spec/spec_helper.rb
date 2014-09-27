@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require 'utilities'
+require 'vcr'
 require 'webmock/rspec'
 require 'licencetobill' # and any other gems you need
 Bundler.setup

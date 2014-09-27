@@ -6,7 +6,6 @@ end
 
 require 'json'
 require 'httparty'
-require 'vcr'
 
 require_relative 'licencetobill/configuration'
 require_relative 'licencetobill/helpers'
