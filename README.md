@@ -102,6 +102,9 @@ get_deals_for(key_user)
 
 add_trial_for(key_user)
 #=> Create a trial offer for a specific user
+
+get_stages
+#=> Get all the stages for a specific deal (of course you'll need to send this message to an offer deal = @deal.get_stages)
 ```
 
 #### STAGES
