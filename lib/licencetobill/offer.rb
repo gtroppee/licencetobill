@@ -3,7 +3,11 @@ module LicenceToBill
     include LicenceToBill::Concerns
 
     def get_stages
-      get_collection(LicenceToBill::Stage, self.stages)
+      if respond_to?(:stages)
+        get_collection(LicenceToBill::Stage, stages)
+      else
+        []
+      end
     end
   end
 end
